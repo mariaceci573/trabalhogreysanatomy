@@ -1,0 +1,59 @@
+HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grey's Anatomy - Personagens</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personagens de Grey's Anatomy</h1>
+        
+          <!--Cards identificação dos personagens  -->
+        <div class="cards">
+            <div class="card" id="meredith" onmouseover="mostrarHistoria('meredith')">
+                <img src="img/meridth.jpg" alt="Meredith Grey">
+                <h2>Meredith Grey</h2>
+            </div>
+            <div class="card" id="derek" onmouseover="mostrarHistoria('derek')">
+                <img src="img/Derek.jpg" alt="Derek Shepherd">
+                <h2>Derek Shepherd</h2>
+            </div>
+            <div class="card" id="christina" onmouseover="mostrarHistoria('christina')">
+                <img src="img/cristina.jpg" alt="Cristina Yang">
+                <h2>Cristina Yang</h2>
+            </div>
+            <div class="card" id="alex" onmouseover="mostrarHistoria('alex')">
+                <img src="img/Alex Karev.jpg" alt="Alex Karev">
+                <h2>Alex Karev</h2>
+            </div>
+            <div class="card" id="bailey" onmouseover="mostrarHistoria('bailey')">
+                <img src="img/bailey.jpg" alt="Miranda Bailey">
+                <h2>Miranda Bailey</h2>
+            </div>
+            <div class="card" id="richard" onmouseover="mostrarHistoria('richard')">
+                <img src="img/richard.jpg" alt="Richard Weber">
+                <h2>Richard Weber</h2>
+            </div>
+            <div class="card" id="burke" onmouseover="mostrarHistoria('burke')">
+                <img src="img/Burke.jpg" alt="Preston Burke">
+                <h2>Preston Burke</h2>
+            </div>
+            <div class="card" id="mark" onmouseover="mostrarHistoria('mark')">
+                <img src="img/mark.jpg" alt="Mark Sloan">
+                <h2>Mark Sloan</h2>
+            </div>
+        </div>
+
+        <!--Área de exibição do nome e descrição  --> 
+        <div class="personagem-info">
+            <h2 id="nomePersonagem">Selecione um Personagem</h2>
+            <p id="descricaoPersonagem">Passe o mouse sobre os personagens para ver suas histórias.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

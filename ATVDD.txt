@@ -1,0 +1,24 @@
+const nomeElement = document.getElementById('nomePersonagem');
+const descricaoElement = document.getElementById('descricaoPersonagem');
+\\ isso esta funcionado para selecionar os elementos onde eu escrevi a historia do personagem 
+-------------------------------------------------------------------
+    nomePersonagem.innerText = personagensInfo[personagem].nome;
+    descricaoPersonagem.innerText = personagensInfo[personagem].descricao;
+// Atualiza o nome e a descrição do personagem
+
+o personagensInfo é onde você pode acessar a informação de cada personagem usando o nome dele como chave.
+
+personagensInfo[personagem] acessa o objeto associado à chave "meredith", ou seja, o objeto
+
+personagensInfo[personagem] acessa o objeto associado à chave "meredith", ou seja, o objeto
+
+personagens
+
+Meredith grey 
+Derek Shepherd#
+Christina Young#
+Alex Karev#
+Bailey#
+Richard weber#
+Burke#
+Mark sloan#
